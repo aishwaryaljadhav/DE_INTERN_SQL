@@ -20,6 +20,10 @@ values
 (106, "farah", 82, "B", "Delhi");
 
 select *from student;
+select name, marks from student;
+select distinct city from student;
+select *from student where marks>80 and city="Mumbai";
+select *from student where marks+10>100 ;
 
 
 
