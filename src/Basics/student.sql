@@ -1,5 +1,5 @@
 SELECT *FROM STUDENT;
-
+use college;
 DROP TABLE STUDENT;
 
 create table student (
